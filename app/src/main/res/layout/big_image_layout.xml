@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/big_one"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/small_iame"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/lake"
+        android:scaleType="centerCrop"
+        android:onClick="toggleMode"
+        app:layout_constraintDimensionRatio="w,16:9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/small_text"/>
+
+    <TextView
+        android:id="@+id/small_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Small Text"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/small_iame"/>
+
+    <TextView
+        android:id="@+id/random_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ometimes we need to create views which have a fixed aspect ratio. This is particularly useful with ImageView if we need to display images which come from a feed, and we know that any images we get will be of a specific aspect ratio. For example we may have book cover art (the specifics of which can vary enormously, so we’ll leave it there!); or movie posters (which are commonly 4:6); or perhaps stills from movies (commonly 1.85:1 or 2.39:1) or tv (commonly 4:3 or 16:9).ometimes we need to create views which have a fixed aspect ratio. This is particularly useful with ImageView if we need to display images which come from a feed, and we know that any images we get will be of a specific aspect ratio. For example we may have book cover art (the specifics of which can vary enormously, so we’ll leave it there!); or movie posters (which are commonly 4:6); or perhaps stills from movies (commonly 1.85:1 or 2.39:1) or tv (commonly 4:3 or 16:9).ometimes we need to create views which have a fixed aspect ratio. This is particularly useful with ImageView if we need to display images which come from a feed, and we know that any images we get will be of a specific aspect ratio. For example we may have book cover art (the specifics of which can vary enormously, so we’ll leave it there!); or movie posters (which are commonly 4:6); or perhaps stills from movies (commonly 1.85:1 or 2.39:1) or tv (commonly 4:3 or 16:9)."
+        app:layout_constraintTop_toBottomOf="@+id/small_text"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
