@@ -1,0 +1,16 @@
+[94m== A records ==[0m
+ecotravel.stays.io -->-- 18.232.193.101
+helpers.stays.io -->-- 52.35.97.40
+router.stays.io -->-- 18.232.193.101
+stw.stays.io -->-- 52.26.186.53
+www.stays.io -->-- 52.42.123.209
+
+
+[94m== CNAME records ==[0m
+cdn-assets.stays.io -->-- d3vn1twrve8lim.cloudfront.net.
+cdn.stays.io -->-- d3lecybezqm174.cloudfront.net.
+compare.cdn.stays.io -->-- stays.partner.cdn.intentmedia.net.
+compare.stays.io -->-- stays.partner.intentmedia.net.
+cosmos.stays.io -->-- ecs-planet-web-socket-env.us-west-2.elasticbeanstalk.com.
+flights.stays.io -->-- whitelabel.b2b.skyscanner.net.
+staging-cosmos.stays.io -->-- staging-ecs-planet-web-socket-env.us-west-2.elasticbeanstalk.com.

@@ -1,0 +1,35 @@
+[94m[-] Enumerating subdomains now for stays.io[0m
+[92m[-] Searching now in Baidu..[0m
+[92m[-] Searching now in Yahoo..[0m
+[92m[-] Searching now in Google..[0m
+[92m[-] Searching now in Bing..[0m
+[92m[-] Searching now in Ask..[0m
+[92m[-] Searching now in Netcraft..[0m
+[92m[-] Searching now in DNSdumpster..[0m
+[92m[-] Searching now in Virustotal..[0m
+[92m[-] Searching now in ThreatCrowd..[0m
+[92m[-] Searching now in SSL Certificates..[0m
+[92m[-] Searching now in PassiveDNS..[0m
+[93m[-] Total Unique Subdomains Found: 22[0m
+[92mwww.stays.io[0m
+[92mcdn.stays.io[0m
+[92mcompare.cdn.stays.io[0m
+[92mcdn-assets.stays.io[0m
+[92mcompare.stays.io[0m
+[92mwww.compare.stays.io[0m
+[92mcosmos.stays.io[0m
+[92mecotravel.stays.io[0m
+[92mes-center.stays.io[0m
+[92mf1-pwa.stays.io[0m
+[92mf2-pwa.stays.io[0m
+[92mflights.stays.io[0m
+[92mhelpers.stays.io[0m
+[92mm.stays.io[0m
+[92mm-test.stays.io[0m
+[92mplanet.stays.io[0m
+[92mpwa.stays.io[0m
+[92mrouter.stays.io[0m
+[92mstaging-cosmos.stays.io[0m
+[92mstaging-stw.stays.io[0m
+[92mstw.stays.io[0m
+[92muniverse.stays.io[0m
